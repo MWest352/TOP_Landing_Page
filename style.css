@@ -1,0 +1,116 @@
+.wholeSiteWrapper{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainHeader{
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLinks{
+  display: flex;
+  padding-top: 2px;
+  gap: 25px;
+}
+
+.headerLogo{
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.mainHeader, .awesomeSite, .footerMain{
+  background-color: #1f2937;
+}
+
+.awesomeSiteHeading{
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  padding-top: 5%;
+}
+
+.awesomeSite{
+  display:flex;
+  padding: 7%;
+  
+}
+.awesomeSiteBox{
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.awesomeSiteImage{
+  padding-top: 10%;
+  height: 300px;
+  display: flex;
+  margin: auto;
+}
+
+.navLinks, .awesomeSiteParagraph, .footerTxt{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.randomInfoHeader{
+  display: flex;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  justify-content: center;
+  align-items: center;
+}
+
+.randomInfoImages{
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image{
+  height: 125px;
+  display: flex;
+  border: solid;
+  border-color: #3882f6;
+  border-radius: 2pt;
+}
+
+.imageSubtxt{
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subText{
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border: solid;
+}
+
+.inspiringQuoteMain{
+  background-color: #e5e7eb;
+}
+
+.quote{
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+
+.callToActionMain, .button{
+  background-color: #3882f6; 
+}
