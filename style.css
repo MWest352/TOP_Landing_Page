@@ -6,11 +6,20 @@
 
 .mainHeader{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+
+.headerLogo{
+  display: flex;
+  justify-content: start;
 }
 
 .navLinks{
   display: flex;
+  justify-content: end;
   padding-top: 2px;
   gap: 25px;
 }
@@ -45,8 +54,12 @@
   padding-top: 5%;
 }
 
+.awesomeSiteParagraph{
+  display: flex;
+  max-width: 75%;
+}
 .awesomeSiteImage{
-  padding-top: 10%;
+  padding-top: 15%;
   height: 300px;
   display: flex;
   margin: auto;
@@ -92,7 +105,7 @@
 }
 
 .subText{
-  max-width: 200px;
+  max-width: 10%;
   display: flex;
   justify-content: space-between;
   text-align: center;
