@@ -29,6 +29,11 @@ body{
   gap: 25px;
 }
 
+.libraryProject{
+  font-family: 'Roboto', sans-serif;
+  color: #f9faf8;
+}
+
 .headerLogo{
   font-size: 24px;
   color: #f9faf8;
